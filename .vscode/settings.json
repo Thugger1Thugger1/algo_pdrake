@@ -1,0 +1,11 @@
+{
+    "python.experiments.optOutFrom": [
+        "pythonTestAdapter"
+    ],
+    "python.testing.pytestArgs": [
+        "."
+    ],
+    "python.testing.cwd": "${workspaceFolder}/test",
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true
+}

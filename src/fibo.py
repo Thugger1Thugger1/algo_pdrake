@@ -25,3 +25,5 @@ def fibo_formula(n):
     phi = (1 + 5 ** 0.5) / 2
     psi = 1 - phi
     return round((phi**n - psi**n) / 5**0.5)
+
+print (fibo_formula())

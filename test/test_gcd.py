@@ -1,4 +1,4 @@
-from gcd import gcd
+from src.gcd import gcd
 
 
 def test_finds_gcd_when_a_less():
