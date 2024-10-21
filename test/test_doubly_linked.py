@@ -32,9 +32,9 @@ def test_removes_front():
 
 def test_removes_back():
     ls = DoublyLinkedList()
-    ls.add_back(1)
-    ls.add_back(2)
-    ls.add_back(3)
+    ls.add_front(3)
+    ls.add_front(2)
+    ls.add_front(1)
     ls.remove_back()
     assert str(ls) == '<1, 2>'
     ls.remove_back()

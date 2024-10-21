@@ -1,1 +1,1 @@
-def power2(a, n):
+sum(x*y for x, y in zip(a,b))

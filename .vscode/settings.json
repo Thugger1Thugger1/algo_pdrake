@@ -3,9 +3,9 @@
         "pythonTestAdapter"
     ],
     "python.testing.pytestArgs": [
-        "."
+        "test"
     ],
-    "python.testing.cwd": "${workspaceFolder}/test",
+    "python.testing.cwd": "${workspaceFolder}",
     "python.testing.unittestEnabled": false,
     "python.testing.pytestEnabled": true
 }

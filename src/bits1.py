@@ -38,4 +38,4 @@ class BitVector:
     
     def __str__(self):
         for number in sys.getlength:
-        return f'<{self.get(1)}'
+            return f'<{self.get(1)}'
